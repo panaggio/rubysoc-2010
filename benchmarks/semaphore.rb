@@ -2,6 +2,7 @@
 
 require "benchmark"
 require "thread"
+require "extthread"
 
 implementations = [Semaphore, Thread::Semaphore]
 
